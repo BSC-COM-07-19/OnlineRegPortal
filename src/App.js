@@ -1,18 +1,23 @@
-import React from "react";
-import Header from "./components/Header";
-import Homepage from "./components/HomePage";
-import Footer from "./components/Footer";
-import StudentProfile from "./components/StudentProfile";
-import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import LoginSignup from './pages/LoginSignup';
+import Dashboard from './pages/Dashboard';
+import Registration from './pages/Registration';
+import Results from './pages/Results';
+import Notifications from './pages/Notifications';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Homepage />
-      <Footer />
-      <StudentProfile />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<LoginSignup />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/register" element={<Registration />} />
+        <Route path="/results" element={<Results />} />
+        <Route path="/notifications" element={<Notifications />} />
+      </Routes>
+    </Router>
   );
 }
 

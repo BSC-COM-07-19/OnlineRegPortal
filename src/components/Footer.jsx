@@ -1,22 +1,14 @@
-import React from "react";
+import React from 'react';
 
-function Footer() {
-  const footerStyle = {
-    backgroundColor: "#4CAF50", // Green background
-    color: "white", // White text
-    textAlign: "center", // Center alignment
-    padding: "10px",
-    position: "fixed", // Sticks to the bottom
-    bottom: "0",
-    width: "100%",
-    fontFamily: "Arial, sans-serif",
-  };
-
+const Footer = () => {
   return (
-    <footer style={footerStyle}>
-      <p>&copy; 2024 Army Secondary School. All rights reserved.</p>
+    <footer className="bg-gray-800 text-white p-4 mt-8">
+      <div className="container mx-auto text-center">
+        <p>&copy; 2023 Army Secondary School. All rights reserved.</p>
+        <p>Contact: info@armyss.com | +123 456 7890</p>
+      </div>
     </footer>
   );
-}
+};
 
 export default Footer;
