@@ -16,7 +16,7 @@ const Results = () => {
         <h1 className="text-3xl font-bold mb-6">Results</h1>
         <table className="w-full bg-white rounded-lg shadow-lg">
           <thead>
-            <tr className="bg-blue-600 text-white">
+            <tr className="bg-[#4B5320] text-white">
               <th className="p-3">Course</th>
               <th className="p-3">Grade</th>
             </tr>
