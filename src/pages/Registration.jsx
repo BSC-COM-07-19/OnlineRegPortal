@@ -30,7 +30,7 @@ const Registration = () => {
 
 
     alert('Course registered successfully!');
-    navigate('/dashboard'); // Redirect to dashboard after registration
+    navigate('/courses'); // Redirect to dashboard after registration
   };
 
   return (

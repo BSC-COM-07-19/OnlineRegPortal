@@ -5,6 +5,7 @@ import LoginSignup from './pages/LoginSignup';
 import Dashboard from './pages/Dashboard';
 import Registration from './pages/Registration';
 import Results from './pages/Results';
+import Courses from './pages/Courses';
 import Notifications from './pages/Notifications';
 import ProtectedRoute from './components/ProtectedRoute'; // Import ProtectedRoute
 
@@ -19,6 +20,7 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/register" element={<Registration />} />
             <Route path="/results" element={<Results />} />
+            <Route path="/courses" element={<Courses />} />
             <Route path="/notifications" element={<Notifications />} />
           </Route>
         </Routes>

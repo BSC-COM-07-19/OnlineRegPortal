@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -16,12 +16,12 @@ const Home = () => {
             Manage your academic records, check results, and stay updated with important announcements.
           </p>
           <div className="mt-8">
-            <Link
+            {/* <Link
               to="/login"
               className="bg-[#4B5320] text-white px-6 py-2 rounded-lg hover:bg-[#003366] transition duration-300"
             >
               Get Started
-            </Link>
+            </Link> */}
           </div>
         </div>
       </main>

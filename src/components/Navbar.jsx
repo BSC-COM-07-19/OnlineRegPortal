@@ -37,7 +37,7 @@ const Navbar = () => {
                 to="/register"
                 className="text-white hover:text-[#C3B091] transition duration-300"
               >
-                Register
+                Signup
               </Link>
             </>
           )}
